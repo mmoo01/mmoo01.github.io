@@ -1,0 +1,103 @@
+header.row h2 span {
+	color: #C2C2CB;
+	text-shadow: 0px 0px #C2C2CB;
+	background-color: #20148F;
+	text-align: center;
+	background-image: -webkit-linear-gradient(270deg,rgba(194,194,203,1.00) 0%,rgba(61,59,241,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(194,194,203,1.00) 0%,rgba(61,59,241,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(194,194,203,1.00) 0%,rgba(61,59,241,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(194,194,203,1.00) 0%,rgba(61,59,241,1.00) 100%);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: large;
+}
+header.row h2 {
+	color: #20148F;
+	background-color: #E8E7EC;
+	background-size: cover;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 2cm;
+	font-size: large;
+	background-image: -webkit-linear-gradient(270deg,rgba(232,134,76,1.00) 0%,rgba(32,20,143,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(232,134,76,1.00) 0%,rgba(32,20,143,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(232,134,76,1.00) 0%,rgba(32,20,143,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(232,134,76,1.00) 0%,rgba(32,20,143,1.00) 100%);
+	text-align: center;
+}
+
+
+header.row p  {
+	color: #C2C2CB;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-shadow: 0px 3px 10px #20148F;
+	letter-spacing: 0.2em;
+	text-align: center;
+	font-size: large;
+}
+header.row {
+	padding: 20px 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: -webkit-linear-gradient(270deg,rgba(70,54,211,1.00) 0%,rgba(194,194,203,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(70,54,211,1.00) 0%,rgba(194,194,203,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(70,54,211,1.00) 0%,rgba(194,194,203,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(70,54,211,1.00) 0%,rgba(194,194,203,1.00) 100%);
+	color: #20148F;
+	background-color: #C2C2CB;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+}
+.logo {
+	color: #C2C2CB;
+	text-shadow: 0px 3px 5px #20148F;
+	word-spacing: 0em;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+.nav {
+}
+body p {
+}
+nav.row .nav.navbar-nav > li > a:link  , nav.row .nav.navbar-nav > li > a:visited{
+	background-color: #E7E5F1;
+	background-image: -webkit-linear-gradient(270deg,rgba(194,194,203,1.00) 0%,rgba(61,59,241,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(194,194,203,1.00) 0%,rgba(61,59,241,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(194,194,203,1.00) 0%,rgba(61,59,241,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(194,194,203,1.00) 0%,rgba(61,59,241,1.00) 100%);
+	color: #777574;
+	float: none;
+}
+navrow .navbar {
+	margin: 0px;
+}
+
+nav.row .nav.navbar-nav > li > a:link, nav.row .nav.navbar-nav > li > a:visited :hover {
+	background-image: -webkit-linear-gradient(90deg,rgba(194,194,203,1.00) 0%,rgba(32,20,143,1.00) 98.45%);
+	background-image: -moz-linear-gradient(90deg,rgba(194,194,203,1.00) 0%,rgba(32,20,143,1.00) 98.45%);
+	background-image: -o-linear-gradient(90deg,rgba(194,194,203,1.00) 0%,rgba(32,20,143,1.00) 98.45%);
+	background-image: linear-gradient(0deg,rgba(194,194,203,1.00) 0%,rgba(32,20,143,1.00) 98.45%);
+	color: #E8864C;
+	border-top: 5px solid #C2C2CB;
+	border-right: 5px solid #20148F;
+	border-left: 5px solid #20148F;
+}
+
+:link,     {
+	border-left: 1px solid #20148F;
+	border-right: 1px solid #20148F;
+	border-bottom: 1px solid #20148F;
+	border-top: 1px solid #C2C2CB;
+}
+.p {
+}
