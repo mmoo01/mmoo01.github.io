@@ -1,0 +1,64 @@
+@charset "utf-8";
+header.row h1 {
+	color: #3C4663;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,131,98,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,131,98,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,131,98,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,131,98,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	text-shadow: 0px 5px #DEADA1;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	background-color: #6D748C;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-align: center;
+	font-size: xx-large;
+}
+.logodiff {
+	color: #6D748C;
+	text-shadow: 0px 5px #DEADA1;
+}
+
+header.row p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-shadow: 0px 3px 5px;
+	color: #BB7365;
+	text-align: center;
+	letter-spacing: 5px;
+}
+nav.row .navbar.navbar-default {
+	background-color: #3C4663;
+	background-image: -webkit-linear-gradient(270deg,rgba(60,70,99,1.00) 0%,rgba(109,116,140,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(60,70,99,1.00) 0%,rgba(109,116,140,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(60,70,99,1.00) 0%,rgba(109,116,140,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(60,70,99,1.00) 0%,rgba(109,116,140,1.00) 100%);
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+nav.row.nav.navbar-nav > li > a:link  ,nav.row.nav.navbar-nav > li > a:visited,nav.row.nav.navbar-nav > li > a{
+	border-top: 1px solid #3C4663;
+	border-right: 1px solid #6D748C;
+	border-bottom: 1px solid #6D748C;
+	border-left: 1px solid #3C4663;
+	color: #BB7365;
+}
+nav.row.nav.navbar-nav > li > a:hover {
+	background-color: #DEADA1;
+	background-image: -webkit-linear-gradient(90deg,rgba(222,173,161,1.00) 0%,rgba(187,115,101,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(222,173,161,1.00) 0%,rgba(187,115,101,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(222,173,161,1.00) 0%,rgba(187,115,101,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(222,173,161,1.00) 0%,rgba(187,115,101,1.00) 100%);
+	color: #FFFFFF;
+}
+nav.row {
+	border-top: 3px dotted #FF8362;
+}
+nav.row .nav.navbar-nav {
+	width: 715px;
+	margin-top: 0px;
+}
+article.row aside blockquote {
+}
+.flt_lft {
+	float: left;
+	margin-right: auto;
+}
