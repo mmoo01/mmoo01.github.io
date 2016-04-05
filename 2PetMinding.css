@@ -11,8 +11,22 @@ header.row h1 {
 	background-color: #6D748C;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	text-align: center;
-	font-size: xx-large;
+	font-size: 400%;
+	height: 120%;
+	line-height: 180%;
 }
+
+.img.flt_rgt {
+	background-image: url(Images/paw%20prints.jpg);
+	max-width: 5px;
+	min-width: 5px;
+	width: 8px;
+	height: 8px;
+	min-height: 5px;
+	color: #FF8362;
+
+}
+
 .logodiff {
 	color: #6D748C;
 	text-shadow: 0px 5px #DEADA1;
@@ -21,7 +35,7 @@ header.row h1 {
 header.row p {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	text-shadow: 0px 3px 5px;
-	color: #BB7365;
+	color: #3C4663;
 	text-align: center;
 	letter-spacing: 5px;
 }
@@ -33,7 +47,10 @@ nav.row .navbar.navbar-default {
 	background-image: linear-gradient(180deg,rgba(60,70,99,1.00) 0%,rgba(109,116,140,1.00) 100%);
 	border-top-width: 1px;
 	border-top-style: solid;
+	color: #FF8362;
 }
+
+
 nav.row.nav.navbar-nav > li > a:link  ,nav.row.nav.navbar-nav > li > a:visited,nav.row.nav.navbar-nav > li > a{
 	border-top: 1px solid #3C4663;
 	border-right: 1px solid #6D748C;
@@ -51,14 +68,66 @@ nav.row.nav.navbar-nav > li > a:hover {
 }
 nav.row {
 	border-top: 3px dotted #FF8362;
+	color: #3C4663;
 }
 nav.row .nav.navbar-nav {
 	width: 715px;
 	margin-top: 0px;
+	color: #BB7365;
 }
 article.row aside blockquote {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align: right;
+	border-spacing: 2px 8px;
+	margin-top: 0px;
+	margin-right: 0px;
+
 }
 .flt_lft {
 	float: left;
 	margin-right: auto;
+}
+.sidebar2 {
+	background-color: #DEADA1;
+	padding-top: 0px;
+	padding-right: 10px;
+}
+.sidebar2 h2 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	font-size: 220%;
+	line-height: 1.4em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #3C4663;
+	text-shadow: 0px 2px #6D748C;
+	text-align: left;
+	font-weight: bold;
+}
+
+.sidebar2 p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align: left;
+	color: #3C4663;
+	margin-top: 5px;
+	padding-right: 10px;
+	line-height: 1.8em;
+}
+footer {
+	padding: 1em 0px;
+	background-color: #FF8362;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0.52%,rgba(255,131,98,1.00) 98.45%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0.52%,rgba(255,131,98,1.00) 98.45%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0.52%,rgba(255,131,98,1.00) 98.45%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0.52%,rgba(255,131,98,1.00) 98.45%);
+	color: #3C4663;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: medium;
+	line-height: 1;
+	word-spacing: 0.5em;
+	border: thin solid #FF8362;
+	background-size: auto auto;
+}
+.flt_rgt {
 }
