@@ -1491,7 +1491,7 @@ blockquote ol:last-child {
 	margin-bottom: 0;
 	color: #3C4663;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-style: italic;
 }
 blockquote footer,
 blockquote small,
@@ -1934,7 +1934,9 @@ pre code {
     margin-left: 16.66666667%;
   }
   .col-sm-offset-1 {
-    margin-left: 8.33333333%;
+	margin-left: 8.33333333%;
+	color: #3C4663;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
   }
   .col-sm-offset-0 {
     margin-left: 0;
@@ -6810,4 +6812,8 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 .sidebar2 {
+}
+.flt_cnt {
+}
+.flt_lft {
 }

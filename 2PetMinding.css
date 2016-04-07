@@ -96,57 +96,16 @@ footer {
 	border: thin solid #FF8362;
 	background-size: auto auto;
 }
-.flt_rgt {
+left aside .col-md-6 {
+	background-color: #FF8362;
 }
-article.row aside blockquote {
-	padding: 0px;
-	margin: 0px 0px 20px 0px;
+.row aside h6 left {
 	color: #3C4663;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	background-color: #DEADA1;
-}
-article.row aside blockquote cite {
-	-webkit-box-shadow: inset 0px 0px #6D748C;
-	box-shadow: inset 0px 0px #6D748C;
-}
-.row .col-sm-4 .col-sm-4.img {
-	background-image: url(Images/LogoImage.jpg);
-}
-.sidebar2  {
-	color: #3C4663;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-variant: small-caps;
-	font-size: 110%;
-	text-align: center;
-	text-shadow: 0px 0px 15px #6D748C;
-	margin-bottom: 5px;
-	padding-bottom: 10px;
-	background-image: -webkit-linear-gradient(270deg,rgba(187,115,101,1.00) 0%,rgba(222,173,161,1.00) 99.48%,rgba(187,115,101,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(187,115,101,1.00) 0%,rgba(222,173,161,1.00) 99.48%,rgba(187,115,101,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(187,115,101,1.00) 0%,rgba(222,173,161,1.00) 99.48%,rgba(187,115,101,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(187,115,101,1.00) 0%,rgba(222,173,161,1.00) 99.48%,rgba(187,115,101,1.00) 100%);
-	border: thick inset #FF8362;
-	background-position: 0 0;
-	left: 9px;
-	right: 25px;
-}
-.sidebar2 p {
-	color: #3C4663;
+	width: 20px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-style: normal;
-	font-weight: bold;
-	text-decoration: none;
-	border-top-style: groove;
-	min-width: 0px;
-	display: block;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	font-size: medium;
-	text-indent: 0;
-	letter-spacing: 5px;
 	background-color: #FF8362;
-	margin-top: 5px;
-	/* [disabled]list-style-position: outside; */
-	text-align: center;
+}
+
+right asied .col-md-6 {
 }
