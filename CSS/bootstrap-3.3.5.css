@@ -10,6 +10,9 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
+}
+
+body {
   margin: 0;
 }
 article,
@@ -54,7 +57,9 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: bold;
+	font-weight: bold;
+	font-size: large;
+	color: #3C4663;
 }
 dfn {
   font-style: italic;
@@ -1082,11 +1087,12 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+	text-align: center;
 }
 input,
 button,
@@ -1273,7 +1279,8 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;
+	font-size: 24px;
+	color: #FF8362;
 }
 h4,
 .h4 {
@@ -1288,7 +1295,8 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+	margin: 0 0 10px;
+	color: #FF8362;
 }
 .lead {
   margin-bottom: 20px;
@@ -1621,10 +1629,12 @@ pre code {
   margin-left: -15px;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: large;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
@@ -1805,7 +1815,8 @@ pre code {
     width: 58.33333333%;
   }
   .col-sm-6 {
-    width: 50%;
+	width: 50%;
+	color: #3C4663;
   }
   .col-sm-5 {
     width: 41.66666667%;
@@ -6816,4 +6827,6 @@ button.close {
 .flt_cnt {
 }
 .flt_lft {
+}
+.ro {
 }

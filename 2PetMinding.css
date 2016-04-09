@@ -98,14 +98,21 @@ footer {
 }
 left aside .col-md-6 {
 	background-color: #FF8362;
-}
-.row aside h6 left {
 	color: #3C4663;
-	width: 20px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-style: normal;
-	background-color: #FF8362;
+	font-size: large;
+}
+img {
+	/* [disabled]image-orientation: center; */
+	display: block;
+	position: relative;
+	right: 0px;
+	left: 0px;
+	margin-left: 10px;
+	background-image: url(Images/LogoImage.jpg);
 }
 
 right asied .col-md-6 {
+}
+#carousel1 .carousel-inner .item {
 }
