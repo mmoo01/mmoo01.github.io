@@ -3087,9 +3087,9 @@ fieldset[disabled] a.btn {
   border-color: #8c8c8c;
 }
 .btn-default:hover {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+	color: #6D748C;
+	background-color: #e6e6e6;
+	border-color: #adadad;
 }
 .btn-default:active,
 .btn-default.active,
