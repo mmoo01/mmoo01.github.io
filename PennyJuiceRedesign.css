@@ -1,10 +1,32 @@
 @charset "utf-8";
 header.row h2 {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-variant: small-caps;
 	text-align: center;
-	color: #82878C;
-	font-size: 350%;
-	text-shadow: 0px 5px 5px #FFEACC;
+	color: #F2BF44;
+	font-size: 110px;
+	text-shadow: 0px 5px 2px #3F3A72;
+	background-image: url(Images/fruit2.jpg);
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-bottom: 30px;
+}
+header.row  p {
+	color: #3F3A72;
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: x-large;
+	text-shadow: 0px 3px 5px #F2BF44;
+	letter-spacing: 0.5em;
+}
+Navbar1.navbar-nav dropdown {
+	color: #753871;
 }
